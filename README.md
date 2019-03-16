@@ -1,1 +1,1 @@
-# final-year-project
+# Steganalysis of Images using QRC
