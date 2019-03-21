@@ -59,17 +59,22 @@ C#.NET
 7.	The “decryption” button is then clicked to decrypt the original file.
 
 # Task splitup
-Module 1:<br>
-GUI Creation<br>
-Encryption<br>
-Module 2:<br>
-Hiding key behind image<br>
-Encrypted Image to QR<br>
-Module 3:<br>
-QR to encrypted Image<br>
-Extract key from image<br>
-Module 4:<br>
-Decryption<br>
+***Module 1:***<br>
+1.GUI Creation<br>
+2.Encryption<br>
+The user interface forms are crated using the .net framework for login and encryption. The user can login by providing the credentials.
+Then the encryption form is opened where the file & image to encrypt are selected by the user. .
+***Module 2:***<br>
+1.Hiding key behind image<br>
+2.Encrypted Image to QR<br>
+Advanced Encryption Standard algorithm (Rijndael Algorithm) has been used for encryption.The steganographyHelper function is used to perform steganography which is used to hide key of the encrypted file.The QR package can be imported to convert the encrypted image to a QR.
+***Module 3:***<br>
+1.QR to encrypted Image<br>
+2.Extract key from image<br>
+The QR containing the URL of the encrypted image can be scanned to retrieve back the URL. The URL is retrieved from image by using get_url_from_qr() function. The image is extracted from URL.
+***Module 4:***<br>
+1.Decryption<br>
+ The decryption is done by clicking the "Decryption" button. The Rijndael Algorithm can be used for retrieving the original file back.
 
 # team members :
 Bhavadharini.K , Meganisha.B
