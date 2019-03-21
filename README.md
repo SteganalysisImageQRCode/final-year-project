@@ -58,7 +58,7 @@ C#.NET
 6.	The “Get Image from URL” button can be clicked to view the original image.
 7.	The “decryption” button is then clicked to decrypt the original file.
 
-# Task splitup
+# Task splitup & Module splitup
 * **Module 1:**<br>
 1.GUI Creation<br>
 2.Encryption<br>
@@ -78,3 +78,6 @@ The QR containing the URL of the encrypted image can be scanned to retrieve back
 
 # team members :
 Bhavadharini.K , Meganisha.B
+
+# Project completion status: 
+98%
