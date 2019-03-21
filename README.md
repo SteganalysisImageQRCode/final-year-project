@@ -2,6 +2,13 @@
 The steganalysis application deals with the concept of combining cryptography & Steganography.Steganalysis is an efficient technique used to encrypt any form of data and hide the key behind an image or any other digital media to make them more secure. 
 It can be used to carry out hidden exchanges and hence can enhance individual privacy. 
 The security of Steganalysis can be improved by using Quick Response Code to make it more user-friendly.
+
+# Problem Statement:
+The problem statement defines how can we send the message secretly to the destination.<br>
+This provides the solution for the security enhancement & secure communication of information between the sneder and receiver.<br>
+The data in any form of file can be encrypted and the key of the encryption can be hidden behind the image.<br>
+The proposed sytem provides enhanced security by implementing the usage of QR code.
+
 # advantages:
 This application can enhance the security and improve privacy.
 Due to the usage of Complex algorithms this is difficult to attacks.
