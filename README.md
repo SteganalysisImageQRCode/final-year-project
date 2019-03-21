@@ -19,14 +19,14 @@ The future enhancement in the further proposed system is that the software can i
 C#.NET
 
 # Input
-•	The input will be the files which the user desires to encrypt & the image behind which the files are to be encrypted.
-•	The password consisting of 8 characters must be given as a key to perform encryption.
-•	The generated QR must be saved in the form of a png image.
+•	The input will be the files which the user desires to encrypt & the image behind which the files are to be encrypted.<br>
+•	The password consisting of 8 characters must be given as a key to perform encryption.<br>
+•	The generated QR must be saved in the form of a png image.<br>
 
 # Output
-•	The output will be the QR Code which consists of the encrypted image (with file) and the URL behind it.
-•	This QR code can be scanned to view the URL of the image & the URL can be redirected to the original image.
-•	The decryption can be carried out by specifying the path of the encrypted file and the QR (png).
+•	The output will be the QR Code which consists of the encrypted image (with file) and the URL behind it.<br>
+•	This QR code can be scanned to view the URL of the image & the URL can be redirected to the original image.<br>
+•	The decryption can be carried out by specifying the path of the encrypted file and the QR (png).<br>
 
 # Process Involved : Encryption & QR Generation
 1.	The steganalysis application is opened.
@@ -52,14 +52,17 @@ C#.NET
 7.	The “decryption” button is then clicked to decrypt the original file.
 
 # Task splitup
-Module 1:
-GUI Creation,
-Encryption 
-Module 2:
-Hiding key behind image
-Encrypted Image to QR
-Module 3:
-QR to encrypted Image,
-Extract key from image
-Module 4:
-Decryption
+Module 1:<br>
+GUI Creation<br>
+Encryption<br>
+Module 2:<br>
+Hiding key behind image<br>
+Encrypted Image to QR<br>
+Module 3:<br>
+QR to encrypted Image<br>
+Extract key from image<br>
+Module 4:<br>
+Decryption<br>
+
+# team members :
+Bhavadharini.K , Meganisha.B
